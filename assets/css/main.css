@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Yanone+Kaffeesatz:wght@400;700&display=swap');
+
+:root{
+    --primary: #693636;
+    --secondary: #B52828;
+    --tertiary: #DDA5A5;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary);
+}
+
+h1, h1 *{ 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.25rem;
+}
+
+.action{
+    @apply cursor-pointer select-none;
+}
+
+.transition *{
+    transition: all 0.3s ease-in-out;
+}
