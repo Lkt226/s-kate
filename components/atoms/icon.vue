@@ -22,10 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .icon.lg{
-        @apply w-7 h-7;
-    }
-    .icon.md{
-        @apply w-6 h-6;
+    .icon{
+        &.lg{ @apply w-7 h-7; }
+        &.sm{ @apply w-6 h-6; }
     }
 </style>

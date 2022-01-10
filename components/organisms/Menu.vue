@@ -37,7 +37,7 @@ export default {
 
         ul{
             @apply grid grid-cols-$size
-                h-16 text-2xl
+                h-12 text-2xl
                 select-none;
             box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
         }

@@ -1,11 +1,8 @@
 <template>
-  <Tutorial/>
-</template>
-
-<template>
   <div>
    <Header/>
    <Menu :items="items_menu"/>
+   <Banner/>
   </div>
 </template>
 

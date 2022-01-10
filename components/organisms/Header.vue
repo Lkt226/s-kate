@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
     header{
         @apply flex justify-between items-center
-                w-full h-16 px-7;
+                w-full h-14 px-7;
 
         .actions{
             @apply flex;
