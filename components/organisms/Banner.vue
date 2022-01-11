@@ -22,14 +22,7 @@ export default {
     props:{
         items: {
             type: Array,
-            default: () => [
-                {
-                    title: 'Downhill',
-                    type: 'Longboard (speed)',
-                    description: 'Descer uma ladeira andando de Skate, aproveitando toda sua extensão e largura executando manobras, denominadas Slide (derrapar) tanto de pé no como se apoiando no chão ou qualquer manobra que não descaracterize o fato de descer a ladeira.',
-                    image: 'https://firebasestorage.googleapis.com/v0/b/fir-kate.appspot.com/o/banner%2Fdownhill.png?alt=media&token=99c87867-ab68-4dd5-904f-de83f496f9bb'
-                },
-            ]
+            required: true
         }
     },
     data() {

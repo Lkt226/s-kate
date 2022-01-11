@@ -43,7 +43,7 @@ export default {
     .menu-header-box{
         @apply bg-gray-100
                 grid grid-rows-$size
-                w-60 shadow-md
+                w-60 shadow-md z-100
                 fixed top-18 -right-100vw;
         height: calc(var(--size) * 4rem);
 
