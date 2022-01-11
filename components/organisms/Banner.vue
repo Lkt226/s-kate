@@ -7,7 +7,7 @@
             <section class="text-area">
                 <h2 class="title">{{item.title}}</h2>
                 <p class="description">{{item.description}}</p>
-                <button-simple/>
+                <button-simple text="ver mais"/>
             </section>
         </div>
         <span class="counter">

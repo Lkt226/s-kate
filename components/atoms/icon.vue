@@ -24,6 +24,7 @@ export default {
 <style lang="scss" scoped>
     .icon{
         &.lg{ @apply w-7 h-7; }
-        &.sm{ @apply w-6 h-6; }
+        &.md{ @apply w-6 h-6; }
+        &.sm{ @apply w-5 h-5; }
     }
 </style>

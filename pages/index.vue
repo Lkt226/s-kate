@@ -3,10 +3,12 @@
    <Header/>
    <Menu :items="items_menu"/>
    <Banner/>
+   <ProductArea :items="products"/>
   </div>
 </template>
 
 <script>
+const axios = require('axios').default;
 export default {
   data() {
     return {
@@ -31,8 +33,13 @@ export default {
           name: 'Acessórios',
           path: '/produtos/acessorios'
         }
-      ]
+      ],
+      products: {}
     }
   },
+  async beforeCreate (){
+    const response = await axios.get('https://fir-kate-default-rtdb.firebaseio.com/Products.json');
+    this.products = response.data;
+  }
 }
 </script>
